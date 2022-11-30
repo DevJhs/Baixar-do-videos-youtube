@@ -4,36 +4,69 @@
     margin: 0;
 }
 body{
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
-#vrs{
-    
-  border: 2px solid rgba(164, 177, 189, 0.89);
-  color: rgb(219, 255, 255);
-  background-color: rgba(255, 245, 218, 0.253);
-  width: 120px;
-  padding: 4px 25px 4px 20px;
-  
+
+#container{
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
 }
-#Ur{
-    background-color: aliceblue;
-    transform-style: preserve-3d;
-    border: 2px solid blueviolet;
-    height: 30px;
-    width: 300px;    
+#top{
+    margin-bottom: 15px;
+}
+#url{
+    background-color: rgb(255, 255, 255);
+    height: 35px;
+        
     border-radius: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 1px 1px white;
+    padding-left: 10px;
+    margin-right: 5px;
+}
+#formato{
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 1px 1px white;
+    height: 30px;
+    border-radius: 10px;
+
+}
+#formato>option{
+    background-color: rgb(235, 235, 235);
 }
 #botao{
     color: rgb(0, 0, 0);
-    transform-style: preserve-3d;
     font-weight: bold;
     font-size: 14px;
     background-color: aliceblue;
-    border: 3px solid rgb(29, 204, 235);
     padding: 4px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 1px 1px white;
     border-radius: 5px;
+
 }
 #botao:hover{
     background-color: rgb(238, 231, 252);
-    border-color: blueviolet;
+    border-color: rgb(70, 70, 70);
+}
+#botao:active{
+    background-color: rgb(219, 219, 219);
+    border-color: rgb(99, 99, 99);
+}
+
+#bottom{
+    margin-top: 20px;
+}
+.sb{
+    margin-top: 20px;
+
+}
+.sbr{
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 5px;
 }
