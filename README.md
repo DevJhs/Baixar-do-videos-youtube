@@ -8,5 +8,3 @@ Dl.js e o arquivo escrito em Nodejs, ele ira se comunicar o uma API para fazer o
 
 Contato: Instagram: @dev_jhs
 
-Contato: 
-Instagram: @dev_jhs
